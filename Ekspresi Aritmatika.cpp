@@ -1,6 +1,8 @@
 /*	Anggota Kelompok	: Muhammad Donda Fauzaan (2017051036)
-						: Nesa Dwi Cahyani (2017051009)
-						: Ages Mahesa (2017051027)*/
+				: Nesa Dwi Cahyani (2017051009)
+				: Ages Mahesa (2017051027)*/
+
+//Parsing String Infix
 #include <iostream>
 #include <vector>
 #include <cstring>
