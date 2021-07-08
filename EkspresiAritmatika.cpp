@@ -1,8 +1,10 @@
 /*	Anggota Kelompok	: Muhammad Donda Fauzaan (2017051036)
 				: Nesa Dwi Cahyani (2017051009)
-				: Ages Mahesa (2017051027)*/
+				: Ages Mahesa (2017051027)
+*/
 
-//Parsing String Infix
+//PARSING STRING INFIX
+
 #include <iostream>
 #include <vector>
 #include <cstring>
@@ -63,7 +65,8 @@ void Parsing_String_Infix(string input){
     cout << data << endl;
 }
 
-// Konversi Infix to Postfix
+// KONVERSI INFIX TO POSTFIX
+
 #include <bits/stdc++.h>
 
 using namespace std;
