@@ -1,7 +1,6 @@
 /*	Anggota Kelompok	: Muhammad Donda Fauzaan (2017051036)
 						: Nesa Dwi Cahyani (2017051009)
 						: Ages Mahesa (2017051027)*/
-
 #include <iostream>
 #include <vector>
 #include <cstring>
@@ -18,7 +17,7 @@ int main(){
 }
 
 void Parsing_String_Infix(string input){
-	vector <char> parse;
+    vector <char> parse;
     string data;
 
     char Number[] = "0123456789";
@@ -32,7 +31,7 @@ void Parsing_String_Infix(string input){
             parse.push_back(i);
         }
     }
-    for (int i = 0; i != parse.size(); i++){    
+    for (long unsigned int i = 0; i != parse.size(); i++){    
         c[0] = parse[i];
 
         if((strspn(c, Symbol) || parse[i] == ')') && parse[i] != '(' && i > 0){
