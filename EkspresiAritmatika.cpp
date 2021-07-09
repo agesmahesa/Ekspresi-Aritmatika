@@ -3,7 +3,7 @@
 				: Ages Mahesa (2017051027)
 */
 
-// PARSING STRING INFIX
+//PARSING STRING INFIX
 
 #include <iostream>
 #include <vector>
@@ -169,7 +169,7 @@ int main(){
             baru_c+= c[i];    
         }        
     }
-    cout << ubah(baru_c);
+    cout << "Print : " << ubah(baru_c);
     return 0;
 }
 
