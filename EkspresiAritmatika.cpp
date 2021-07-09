@@ -169,6 +169,6 @@ int main(){
             baru_c+= c[i];    
         }        
     }
-    cout << ubah(baru_c);
+    cout << "Print : " << ubah(baru_c);
     return 0;
 }
