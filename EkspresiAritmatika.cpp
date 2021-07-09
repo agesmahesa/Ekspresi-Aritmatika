@@ -174,12 +174,12 @@ int main(){
 }
 
 // EVALUASI ARITMATIKA
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 long unsigned int i;
-
 bool Symbol(char a){
     if(a=='*' || a=='/' || a=='+' ||a=='-' || a=='%'){
         return true; 
